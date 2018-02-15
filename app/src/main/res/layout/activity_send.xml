@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:id="@+id/SendActivity"
+    tools:context="hu.mobwebhf.gitarakkordok.Activities.SendActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/SendCameraButton"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:paddingLeft="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CCCCCC"
+            tools:text="Kép küldése"/>
+        <Button
+            android:id="@+id/SendFileButton"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#CCCCCC"
+            tools:text="PDF/DOC küldése"/>
+    </LinearLayout>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/FilePath"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="asdasasd!"/>
+
+    <Button
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ViaEmail"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        tools:text="Küldés e-mail-ben"/>
+
+</LinearLayout>

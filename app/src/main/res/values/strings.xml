@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Akkordok</string>
+    <string name="activity_chords">Dalok</string>
+    <string name="activity_favorite">Kedvencek</string>
+    <string name="activity_send">Akkordküldés</string>
+    <string name="activity_update">Frissítés</string>
+
+    <string name="action_search">Keresés</string>
+    <string name="action_sort">Rendezés</string>
+
+    <string name="nav_favorite">Kedvencek</string>
+    <string name="nav_send">Küldj be akkordot!</string>
+    <string name="nav_update">Frissítés</string>
+
+    <string name="navigation_drawer_open">Open drawer navigation</string>
+    <string name="navigation_drawer_close">Close drawer navigation</string>
+    <string name="cancel">Mégsem</string>
+    <string name="update_db">Dal adatbázis frissítése</string>
+    <string name="download">Letöltés</string>
+    <string name="succesfull_db_update">Sikeres adatbázis frissítés</string>
+    <string name="no_connection">Nincs internetkapcsolat</string>
+    <string name="new_songs_available">Új dalok elérhetők frissítés után</string>
+
+    <string name="by_name">Név szerinti rendezés</string>
+    <string name="by_time">Idő szerinti rendezés</string>
+    <string name="send_file">PDF/DOC tallózása</string>
+    <string name="send_camera">Kép tallózás</string>
+    <string name="no_camera">Nem sikerült a kamerához hozzáférni</string>
+    <string name="via_email">Küldés</string>
+    <string name="favorites">Kedvencek</string>
+    <string name="menu">Menü</string>
+    <string name="songs">Dalok</string>
+    <string name="no_inserted_file">Nem tallóztál be képet vagy dokumentumot</string>
+    <string name="new_update">Van új frissítés</string>
+    <string name="no_favorite">Még nincs kedvenc dalod :(</string>
+    <string name="update_dialog">Update dialog</string>
+    <string name="no_update">Nincs elérhető új frissítés</string>
+</resources>
